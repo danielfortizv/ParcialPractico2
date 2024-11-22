@@ -2,12 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AnimeListComponent } from './anime-list/anime-list.component';
 import { AnimeDetailComponent } from './anime-detail/anime-detail.component';
+import { RouterModule } from '@angular/router';
+import { AnimeRoutes } from './anime.routing';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AnimeRoutes,
+    RouterModule
   ],
   exports: [AnimeListComponent],
-  declarations: [AnimeListComponent, AnimeDetailComponent]
+  declarations: [AnimeListComponent, AnimeDetailComponent],
 })
-export class AnimeModule { }
+export class AnimeModule {}

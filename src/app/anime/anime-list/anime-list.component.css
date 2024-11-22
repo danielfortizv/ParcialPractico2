@@ -1,1 +1,54 @@
 
+/* Estilo del banner */
+.banner {
+    width: 100%;
+    background-color: #007bff; /* Azul */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .banner-image {
+    max-width: 80%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+  }
+  
+  /* Contenedor principal */
+  .contenedor-animes {
+    margin-top: 20px;
+  }
+  
+  .anime-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .anime-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .anime-info h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .anime-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .anime-info a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .anime-info a:hover {
+    text-decoration: underline;
+  }
+  
